@@ -1,0 +1,129 @@
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* head styles */
+.main-color{
+    color: #4E47FF;
+    font-weight: bold;
+}
+
+.nav-title{
+    font-size: 34px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 50px 150px;
+}
+/* button styles */
+.btn-primary{
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    padding: 12px 30px; 
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+     border-radius: 15px;
+}
+.btn-primary:hover {background-color: #715beb}
+.button:active {
+  background-color: #7c8dda;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+body{
+    height: 100%;
+}
+.secondary-bg{
+    background-image: url('../Assets/Hero-bg.png');
+    width: auto;
+    height: 698px;
+    background-position: top;
+    background-repeat: none;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+/* banner */
+.banner{
+    text-align: center;
+    padding: 37px;
+
+}
+.banner-content{
+    display: flex;
+}
+.banner-title{
+    font-size: 80px;
+    margin: 0px 267px;
+    margin-bottom: 50px;
+}
+.focused{
+    margin-top: 80px;
+}
+/* section */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 250px;
+    gap: 220px;
+}
+.action-title{
+    font-size: 42px;
+}
+.action-pic{
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+.action-description{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-right: 70px;
+}
+
+/* 3rd part */
+.product{
+    text-align: center;
+    margin: 116px;
+    margin-top: 195px;
+    padding: 50px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+.product-title{
+    font-size: 38px;
+}
+.product-div{
+    display: flex;
+    justify-content: space-around ;
+}
+.product-content p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.product-count{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.product-description{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
