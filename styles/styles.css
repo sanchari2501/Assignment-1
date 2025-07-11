@@ -39,15 +39,25 @@ nav{
     outline: none;
      border-radius: 15px;
 }
-.btn-primary:hover {background-color: #715beb}
+.btn-primary:hover {
+  
+    background-color: rgb(62, 158, 255);
+    cursor: pointer;
+    color: black;
+    transition-duration: 0.4s;
+    transform: translateX(2px);
+}
+
 .button:active {
-  background-color: #7c8dda;
+  background-color: rgb(62, 158, 255);
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+  
 }
 
 body{
     height: 100%;
+    background-color: #F5F8FF;
 }
 .secondary-bg{
     background-image: url('../Assets/Hero-bg.png');
@@ -211,3 +221,52 @@ h2 {
       margin-bottom: 20px;
     }
 
+     /* 6th part */
+     .touch{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
+.touch-head{
+    gap: 60px;
+    text-align:left;
+}
+.touch-title{
+    font-size: 97px;
+    font-weight: bold;
+    padding: 0px 30px;
+    padding-top: 100px;
+
+}
+.touch input[type="text"], .touch input[type="email"]{
+    border-color: rgba(214, 221, 237, 0.262);
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 20px 32px;
+    margin-bottom: 24px;
+}
+.touch textarea{
+    border-color: rgba(214, 221, 237, 1);
+    height: 110px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 20px 32px;
+    margin-bottom: 24px;
+}
+::placeholder{
+    font-size: 20px;
+}
+.touch-font{
+    font-size: 18px;
+    font-weight: 400;
+}
+.touch-button{
+    width: 562px;
+    height: 75px;
+    font-size: 16px;
+}
