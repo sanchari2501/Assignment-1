@@ -57,7 +57,7 @@ nav{
 
 body{
     height: 100%;
-    background-color: #F5F8FF;
+    background-color: #F5F8FF; margin: -50px;
 }
 .secondary-bg{
     background-image: url('../Assets/Hero-bg.png');
@@ -149,6 +149,7 @@ h2 {
 
     .tarezameenpar{
         justify-items: center;
+        margin-bottom: 50px;
     }
 
     .testimonial-container {
@@ -165,6 +166,10 @@ h2 {
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       padding: 20px;
       width: 300px;
+    }
+    .card .star-font{
+      font-size: 27px;
+      font-weight: 600;
     }
 
     .card h3 {
@@ -269,4 +274,38 @@ h2 {
     width: 562px;
     height: 75px;
     font-size: 16px;
+}
+/* footer */
+footer{
+  margin-top: 100px;
+}
+.footer{
+  text-align: center;
+  background-color: white;
+  padding: 120px;
+}
+.footer-tag{
+  font-size: 100px;
+  font-weight: 800;
+  margin: 8px;
+  padding: 0px;
+  color: #4E47FF;
+}
+.footer-font{
+   color: rgba(137, 135, 161, 1);
+    font-size: 19px;
+    font-weight: 300;
+    margin: 0px 330px;
+
+
+}
+.footer-div{
+  display: flex;
+  justify-content: center;
+  gap: 49px;
+}
+.footer-last{
+  font-size: 19px;
+  font-weight: 300;
+  color: #8987A1;
 }
