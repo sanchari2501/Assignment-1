@@ -12,19 +12,22 @@
   font-style: normal;
 }
 /* head styles */
+
 .main-color{
     color: #4E47FF;
-    font-weight: bold;
+    font-weight:800;
 }
 
 .nav-title{
     font-size: 34px;
+    font-weight: bolder;
+    margin-top: 60px;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin: 50px 150px;
+    margin: 60px 200px;
 }
 /* button styles */
 .btn-primary{
@@ -57,17 +60,17 @@ nav{
 
 body{
     height: 100%;
-    background-color: #F5F8FF; margin: -50px;
+    background-color: #F5F8FF; 
+    margin: -50px;
 }
 .secondary-bg{
-    background-image: url('../Assets/Hero-bg.png');
-    width: auto;
-    height: 698px;
-    background-position: top;
-    background-repeat: none;
-    background-size: cover;
-    margin: 0px;
-    padding: 0px;
+
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover; 
+    height: 100vh;
+    width: 100%; 
 }
 /* banner */
 .banner{
@@ -76,22 +79,28 @@ body{
 
 }
 .banner-content{
-    display: flex;
+    /* display: flex; */
+      justify-content: center;
+      align-items: center;
 }
 .banner-title{
-    font-size: 80px;
-    margin: 0px 267px;
-    margin-bottom: 50px;
+    font-size: 65px;
+    margin: 100px 267px 0px ;
+    margin-top: 180px;
 }
 .focused{
-    margin-top: 80px;
+    margin-top:50px;
 }
 /* section */
 .action{
     display: flex;
     justify-content: space-between;
-    margin: 250px;
-    gap: 220px;
+    margin: 300px;
+    /* gap: 100px; */
+    padding: 0 120px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+
 }
 .action-title{
     font-size: 42px;
@@ -110,9 +119,9 @@ body{
 /* 3rd part */
 .product{
     text-align: center;
-    margin: 116px;
-    margin-top: 195px;
     padding: 50px;
+    max-width: 1140px;
+    margin: 116px auto 0 auto;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
 }
@@ -149,15 +158,23 @@ h2 {
 
     .tarezameenpar{
         justify-items: center;
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
+        width: 100%;
+        align-items: center;
+        margin: 137px auto 0 auto;
+        margin-bottom: 140px;
     }
 
     .testimonial-container {
       display: flex;
-      justify-content: space-around;
-      gap: 20px;
-      max-width: 1000px;
-      padding: 20px;
+      justify-content: space-between;
+      gap: 30px;
+      max-width: 1200px;
+      padding: 0 20px;
+      width: 100%;
+      flex-wrap: nowrap;
+      margin: 0 auto;
+
     }
 
     .card {
@@ -165,7 +182,8 @@ h2 {
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       padding: 20px;
-      width: 300px;
+      width: 500px;
+      margin-top: 30px;
     }
     .card .star-font{
       font-size: 27px;
@@ -202,15 +220,20 @@ h2 {
     /* 5th part */
     .ready{
       justify-items: center;
-      margin: 151px;
+      margin: 0px auto 0px auto;
       padding: 40px;
-      background-color: white;
+      background-color: #FFFFFF;
       border-radius: 10px;
+      max-width: 1140px;
+      margin-top: 137px;
+      margin-bottom: 140px;
+      /* margin-right: 100px; */
     }
     .ready-title{
       font-size: 51px;
       font-weight: bold;
       padding: none;
+      margin-bottom: 20px;
     }
     .ready-img{
       border-radius: 48px;
@@ -218,7 +241,7 @@ h2 {
     .ready-temp{
       font-size: 20px;
       margin-top: 0;
-      color: rgba(0, 0, 0, 0.5);
+      color: rgba(0, 0, 0, 0.5);
     }
     .ready-btn{
       font-size: 16px;
@@ -227,20 +250,27 @@ h2 {
     }
 
      /* 6th part */
-     .touch{
+.touch{
     display: flex;
     justify-content: space-between;
-    margin: 150px;
+    gap: 120px;
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 0 150px;
+    /* gap: 10px; */
+    margin-top: 90px;
 }
 .touch-head{
-    gap: 60px;
+    gap: 200px;
     text-align:left;
 }
 .touch-title{
-    font-size: 97px;
+    font-size: 80px;
     font-weight: bold;
-    padding: 0px 30px;
+    padding: 0px 10px;
     padding-top: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
 
 }
 .touch input[type="text"], .touch input[type="email"]{
@@ -250,7 +280,7 @@ h2 {
     background-color: white;
     display: block;
     width: 497px;
-    padding: 20px 32px;
+    padding: 20px 36px;
     margin-bottom: 24px;
 }
 .touch textarea{
@@ -260,15 +290,16 @@ h2 {
     background-color: white;
     display: block;
     width: 497px;
-    padding: 20px 32px;
+    padding: 20px 36px;
     margin-bottom: 24px;
 }
 ::placeholder{
     font-size: 20px;
 }
 .touch-font{
-    font-size: 18px;
-    font-weight: 400;
+     font-size:18px;
+    font-weight: 700px;
+    margin-bottom: 10px;
 }
 .touch-button{
     width: 562px;
